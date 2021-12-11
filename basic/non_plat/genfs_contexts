@@ -258,3 +258,6 @@ genfscon proc /ion/clients/clients_summary u:object_r:proc_ion_clients_summary:s
 
 # Purpose : idletime timer
 genfscon proc /displowpower/idletime    u:object_r:proc_idletime:s0
+
+# Last_kmsg
+genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0

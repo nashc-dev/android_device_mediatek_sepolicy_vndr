@@ -158,3 +158,6 @@ allow init ion_device:chr_file rw_file_perms;
 
 # MTK Vibrator
 allow init sysfs_vibrator:file r_file_perms;
+
+# last_kmsg
+allow init proc_last_kmsg:file setattr;

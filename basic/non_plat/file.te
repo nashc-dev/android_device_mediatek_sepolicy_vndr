@@ -45,6 +45,7 @@ type bt_int_adp_socket, file_type;
 type bt_a2dp_stream_socket, file_type;
 type bt_data_file, file_type, data_file_type;
 type proc_devices, fs_type, proc_type;
+type proc_last_kmsg, fs_type, proc_type;
 type proc_thermal, fs_type, proc_type;
 type proc_mtkcooler, fs_type, proc_type;
 type proc_mtktz, fs_type, proc_type;
