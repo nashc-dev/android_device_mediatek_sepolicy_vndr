@@ -224,6 +224,7 @@
 /dev/tee1 u:object_r:tee_part_device:s0
 /dev/tee2 u:object_r:tee_part_device:s0
 /dev/sensor(/.*)? u:object_r:sensor_device:s0
+/dev/hf_manager(/.*)? u:object_r:sensor_device:s0
 /dev/smartpa_i2c(/.*)? u:object_r:smartpa1_device:s0
 /dev/snapshot(/.*)? u:object_r:snapshot_device:s0
 /dev/socket/adbd(/.*)? u:object_r:adbd_socket:s0
