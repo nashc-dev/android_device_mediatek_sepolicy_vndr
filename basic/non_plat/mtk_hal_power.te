@@ -164,3 +164,8 @@ allow mtk_hal_power sysfs_ged:file w_file_perms;
 
 # sysfs xgf
 allow mtk_hal_power sysfs_xgf:file w_file_perms;
+
+allow mtk_hal_power hal_fingerprint_default:dir { getattr search };
+allow mtk_hal_power hal_fingerprint_default:file { open read };
+allow mtk_hal_power proc:file { open write };
+allow mtk_hal_power sysfs:file write;
