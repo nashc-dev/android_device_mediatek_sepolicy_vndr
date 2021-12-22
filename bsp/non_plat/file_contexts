@@ -212,3 +212,7 @@
 
 # kmset exec
 /(system\/vendor|vendor)/bin/bp_kmsetkey_ca                                                     u:object_r:bp_kmsetkey_ca_exec:s0
+
+# APU Sys
+/dev/apusys         u:object_r:apusys_device:s0
+

@@ -13,3 +13,5 @@ allow system_server teei_client_device:chr_file r_file_perms;
 # Purpose : Add permission for nwk
 type nwkopt_device, dev_type;
 type tx_device, dev_type;
+
+type apusys_device, dev_type;
