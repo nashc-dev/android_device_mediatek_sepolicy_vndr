@@ -67,3 +67,6 @@ allow mtk_hal_sensors merged_hal_service:fd use;
 # Purpose: Allow SCP
 allow mtk_hal_sensors sysfs_scp:dir search;
 allow mtk_hal_sensors sysfs_scp:file { open read write };
+
+allow mtk_hal_sensors sensor_device:chr_file rw_file_perms;
+allow mtk_hal_sensors sysfs_bus:file { open read };
