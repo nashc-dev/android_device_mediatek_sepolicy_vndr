@@ -8,4 +8,7 @@ allow mtk_hal_pq nvram_data_file:file create_file_perms;
 allow mtk_hal_pq nvram_data_file:lnk_file read;
 allow mtk_hal_pq nvdata_file:lnk_file read;
 
-allow mtk_hal_pq dri_device:chr_file ioctl;
+allow mtk_hal_pq dri_device:chr_file rw_file_perms;
+allow mtk_hal_pq gpu_device:dir search;
+
+get_prop(mtk_hal_pq, mtk_aal_ro_prop)
