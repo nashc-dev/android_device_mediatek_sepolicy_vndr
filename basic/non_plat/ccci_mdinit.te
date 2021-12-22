@@ -112,3 +112,5 @@ allow ccci_mdinit sysfs_dt_firmware_android:file { getattr open read };
 
 get_prop(ccci_mdinit, service_nvram_init_prop)
 allow ccci_mdinit gsi_metadata_file:dir search;
+
+get_prop(ccci_mdinit, mtk_cxp_vendor_prop)
