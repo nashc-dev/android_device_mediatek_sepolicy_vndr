@@ -364,3 +364,6 @@ vendor_public_prop(factor_prop)
 
 # Wi-Fi
 vendor_public_prop(wlan_fw_prop)
+
+# MM Prop
+vendor_public_prop(debug_mm_prop)
