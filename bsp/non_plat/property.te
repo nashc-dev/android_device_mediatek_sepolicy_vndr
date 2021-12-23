@@ -301,3 +301,6 @@ system_public_prop(mtk_acs_support_prop)
 
 #=============NWK property============
 system_public_prop(vendor_mtk_nwk_opt_prop)
+
+# gpud property
+system_public_prop(debug_mtk_gpud_prop)

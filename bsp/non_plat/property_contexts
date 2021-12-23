@@ -462,3 +462,6 @@ persist.vendor.mtk_acs_url u:object_r:mtk_acs_url_prop:s0
 
 #=============NWK property============
 persist.vendor.gsm. u:object_r:vendor_mtk_nwk_opt_prop:s0
+
+# gpud Property
+vendor.debug.gpud. u:object_r:debug_mtk_gpud_prop:s0
