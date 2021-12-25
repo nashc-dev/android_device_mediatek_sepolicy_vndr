@@ -445,3 +445,6 @@ vendor.wlan.driver.         u:object_r:wlan_fw_prop:s0
 
 # MM prop
 vendor.debug.mmpath.	    u:object_r:debug_mm_prop:s0
+
+# SMS prop
+vendor.sms.md.ready	    u:object_r:ril_md_prop:s0

@@ -367,3 +367,6 @@ vendor_public_prop(wlan_fw_prop)
 
 # MM Prop
 vendor_public_prop(debug_mm_prop)
+
+# SMS Prop
+vendor_public_prop(ril_md_prop)
