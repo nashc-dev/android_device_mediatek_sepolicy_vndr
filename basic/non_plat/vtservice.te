@@ -1,1 +1,2 @@
 get_prop(vtservice, vendor_audio_prop)
+get_prop(vtservice, mtk_vilte_support_prop)
