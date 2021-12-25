@@ -33,3 +33,4 @@ allow vpud_native sysfs_boot_mode:file rw_file_perms;
 
 get_prop(vpud_native, debug_mm_prop)
 get_prop(vpud_native, mtk_default_prop)
+get_prop(vpud_native, mtk_venc_h264_showlog_prop)
