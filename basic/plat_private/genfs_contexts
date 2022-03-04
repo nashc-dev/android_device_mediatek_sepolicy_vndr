@@ -13,6 +13,8 @@ genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635
 genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-004e/tcpc/type_c_port0/dual-role-type_c_port0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6359-pmic/mt6359-rtc/wakeup/wakeup         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-0034/mt6360_pmu_chg.2.auto/wakeup/wakeup             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d00000.i2c5/i2c-5/5-0034/mt6360_pmu_chg.2.auto/wakeup/wakeup20           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d00000.i2c5/i2c-5/5-0034/mt6360_pmu_chg.2.auto/wakeup/wakeup20/event_count u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6359-pmic/mt635x-auxadc/wakeup/wakeup      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/mt_charger/power_supply/usb/wakeup                                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/mt_charger/power_supply/ac/wakeup                                          u:object_r:sysfs_wakeup:s0
