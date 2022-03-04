@@ -164,4 +164,5 @@ get_prop(rild, mtk_em_hidl_prop)
 get_prop(rild, mtk_dynims_prop)
 get_prop(rild, mtk_network_prop)
 get_prop(rild, ril_md_prop)
+get_prop(rild, mtk_simswitch_emmode_prop)
 allow rild nvram_agent_binder_hwservice:hwservice_manager find;
