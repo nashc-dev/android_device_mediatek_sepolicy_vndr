@@ -39,6 +39,9 @@ get_prop(radio, mtk_viwifi_prop)
 # Purpose : for setting vt enable property
 get_prop(radio, mtk_vt_prop)
 
+# Purpose : for setting vendor vt enable property
+get_prop(radio, vendor_vt_prop)
+
 # Purpose : Add vtservice to support video telephony functionality
 #           3G VT/ViLTE both use this service which will also communication with IMCB/Rild
 allow radio vtservice:binder call;
