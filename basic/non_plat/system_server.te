@@ -216,3 +216,6 @@ allow system_server hal_wifi_supplicant_hwservice:hwservice_manager find;
 
 # Zygote
 allow system_server app_zygote:process getpgid;
+
+# Read GPU props
+get_prop(system_server, debug_mtk_gpud_prop)
