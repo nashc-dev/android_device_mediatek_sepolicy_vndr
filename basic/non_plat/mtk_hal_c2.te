@@ -36,7 +36,7 @@ allow mtk_hal_c2 proc_ged:file rw_file_perms;
 allowxperm mtk_hal_c2 proc_ged:file ioctl { proc_ged_ioctls };
 allow mtk_hal_c2 gpu_device:dir search;
 allow mtk_hal_c2 mtk_cmdq_device:chr_file r_file_perms;
-hal_client_domain(mtk_hal_c2, hal_mtk_pq)
+hal_client_domain(mtk_hal_c2, hal_pq)
 allow mtk_hal_c2 vcodec_file:dir w_dir_perms;
 allow mtk_hal_c2 vcodec_file:file create_file_perms;
 allow mtk_hal_c2 mtk_mdp_device:chr_file r_file_perms;
