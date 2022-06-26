@@ -191,6 +191,8 @@
 /dev/mtk_mdp(/.*)? u:object_r:mtk_mdp_device:s0
 /dev/mdp_device(/.*)? u:object_r:mdp_device:s0
 /dev/mdp_sync(/.*)? u:object_r:mtk_mdp_device:s0
+/dev/fmt_sync(/.*)? u:object_r:mtk_fmt_sync_device:s0
+/dev/vdec-fmt(/.*)? u:object_r:mtk_fmt_device:s0
 /dev/mtk_rrc(/.*)? u:object_r:mtk_rrc_device:s0
 /dev/mtk_dfrc(/.*)? u:object_r:mtk_dfrc_device:s0
 /dev/mt-mdp(/.*)? u:object_r:mt_mdp_device:s0

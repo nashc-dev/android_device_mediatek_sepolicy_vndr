@@ -74,6 +74,8 @@ type kd_camera_hw_bus2_device, dev_type;
 type MATV_device, dev_type;
 type mt_otg_test_device, dev_type;
 type mt_mdp_device, dev_type;
+type mtk_fmt_device, dev_type;
+type mtk_fmt_sync_device, dev_type;
 type mtkg2d_device, dev_type;
 type misc_sd_device, dev_type;
 type mtk_sched_device, dev_type;
