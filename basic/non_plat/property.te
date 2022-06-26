@@ -370,3 +370,6 @@ vendor_public_prop(debug_mm_prop)
 
 # SMS Prop
 vendor_public_prop(ril_md_prop)
+
+# C2 Prop
+vendor_restricted_prop(vendor_mtk_c2_log_prop)

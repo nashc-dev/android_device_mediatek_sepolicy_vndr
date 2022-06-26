@@ -448,3 +448,6 @@ vendor.debug.mmpath.	    u:object_r:debug_mm_prop:s0
 
 # SMS prop
 vendor.sms.md.ready	    u:object_r:ril_md_prop:s0
+
+# C2 prop
+vendor.mtk.c2   u:object_r:vendor_mtk_c2_log_prop:s0
