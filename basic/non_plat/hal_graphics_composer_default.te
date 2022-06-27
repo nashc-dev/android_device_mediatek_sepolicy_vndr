@@ -55,3 +55,5 @@ hal_client_domain(hal_graphics_composer_default, hal_graphics_allocator);
 # Allow hal_graphics_composer_default to read debug_mtk_gpud_prop
 get_prop(hal_graphics_composer_default, debug_mtk_gpud_prop)
 
+# Allow hal_graphics_composer_default to get mtk_pq_ro_prop
+get_prop(hal_graphics_composer_default, mtk_pq_ro_prop)
