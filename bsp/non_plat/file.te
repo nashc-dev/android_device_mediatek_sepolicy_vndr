@@ -73,3 +73,4 @@ type bp_kmsetkey_ca_exec, exec_type, vendor_file_type, file_type;
 
 # task turbo
 type sysfs_task_turbo, fs_type, sysfs_type;
+

@@ -14,7 +14,6 @@ type mota_proc_file, fs_type, proc_type;
 #path = "/sys/class/udc/musb-hdrc/device/cmode"
 type sysfs_android0_usb, fs_type, sysfs_type;
 type sysfs_mt_usb, fs_type, sysfs_type;
-type sysfs_musb_hdrc, fs_type, sysfs_type;
 
 # Purpose: Allow EM USB/UART switch
 type sysfs_portmode, fs_type, sysfs_type;
