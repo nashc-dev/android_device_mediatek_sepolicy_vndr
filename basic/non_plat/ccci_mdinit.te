@@ -102,6 +102,7 @@ allow ccci_mdinit proc_bootprof:file rw_file_perms;
 
 # Purpose: Allow to search /mnt/vendor/nvdata for fstab when using NVM_Init()
 allow ccci_mdinit mnt_vendor_file:dir search;
+allow ccci_mdinit nvcfg_file:dir search;
 
 # Purpose : Allow ccci_mdinit call sysenv_get and sysenv_set
 allow ccci_mdinit block_device:dir search;
@@ -110,7 +111,13 @@ allow ccci_mdinit proc_cmdline:file r_file_perms;
 allow ccci_mdinit sysfs_dt_firmware_android:dir { open read search };
 allow ccci_mdinit sysfs_dt_firmware_android:file { getattr open read };
 
+# Allow ccci_mdinit to get kernel version
+allow ccci_mdinit proc_version:file r_file_perms;
+
 get_prop(ccci_mdinit, service_nvram_init_prop)
 allow ccci_mdinit gsi_metadata_file:dir search;
 
 get_prop(ccci_mdinit, mtk_cxp_vendor_prop)
+
+get_prop(ccci_mdinit, mtk_rat_config_prop)
+get_prop(ccci_mdinit, wmt_prop)
