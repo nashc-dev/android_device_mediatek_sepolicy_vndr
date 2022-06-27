@@ -58,6 +58,9 @@ allow radio hal_graphics_composer_default:fd use;
 # Purpose: allow get telephony Sensitive property
 get_prop(radio, mtk_telephony_sensitive_prop)
 
+# Allow IMS to get mtk_mobile_management_prop
+get_prop(radio, mtk_mobile_management_prop)
+
 # Purpose : HIDL for imsa
 binder_call(radio, mtk_hal_imsa)
 
