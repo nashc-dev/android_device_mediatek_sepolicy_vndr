@@ -85,8 +85,8 @@
 # Trustonic TEE system files
 /(vendor|system\/vendor)/app/mcRegistry(/.*)? u:object_r:mobicore_vendor_file:s0
 /(vendor|system\/vendor)/bin/mcDriverDaemon u:object_r:mobicore_exec:s0
-/(vendor|system\/vendor)/bin/hw/vendor\.trustonic\.tee@1\.0-service u:object_r:hal_tee_default_exec:s0
-/(vendor|system\/vendor)/bin/hw/vendor\.trustonic\.teeregistry@1\.0-service u:object_r:hal_teeregistry_default_exec:s0
+/(vendor|system\/vendor)/bin/hw/vendor\.trustonic\.tee@1\.[0-9]+-service u:object_r:hal_tee_default_exec:s0
+/(vendor|system\/vendor)/bin/hw/vendor\.trustonic\.teeregistry@1\.[0-9]+-service u:object_r:hal_teeregistry_default_exec:s0
 
 /(system\/vendor|vendor)/bin/thermal u:object_r:thermal_exec:s0
 /(system\/vendor|vendor)/bin/volte_rcs_ua u:object_r:volte_rcs_ua_exec:s0
