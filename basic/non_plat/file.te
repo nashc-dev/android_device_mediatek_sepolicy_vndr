@@ -90,6 +90,7 @@ type sysfs_adsp, fs_type, sysfs_type;
 type sysfs_rt_param, fs_type, sysfs_type;
 type sysfs_rt_calib, fs_type, sysfs_type;
 type sysfs_sspm, fs_type, sysfs_type;
+type sysfs_soc, fs_type, sysfs_type;
 type sysfs_devinfo, fs_type, sysfs_type, mlstrustedobject;
 type sysfs_dcm, fs_type, sysfs_type;
 type sysfs_dcs, fs_type, sysfs_type;

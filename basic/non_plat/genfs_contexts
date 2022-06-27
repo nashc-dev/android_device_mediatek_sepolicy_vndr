@@ -261,3 +261,6 @@ genfscon proc /displowpower/idletime    u:object_r:proc_idletime:s0
 
 # Last_kmsg
 genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0
+
+# SOC
+genfscon sysfs /devices/soc0 u:object_r:sysfs_soc:s0

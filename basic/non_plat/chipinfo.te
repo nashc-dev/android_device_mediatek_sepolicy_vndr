@@ -1,0 +1,12 @@
+type chipinfo, domain;
+type chipinfo_exec, vendor_file_type, exec_type, file_type;
+init_daemon_domain(chipinfo);
+
+allow chipinfo vendor_shell_exec:file rx_file_perms;
+allow chipinfo vendor_toolbox_exec:file rx_file_perms;
+
+r_dir_file(chipinfo, sysfs_soc)
+r_dir_file(chipinfo, sysfs_device_tree_model)
+
+get_prop(chipinfo, soc_prop)
+set_prop(chipinfo, vendor_mtk_soc_prop)

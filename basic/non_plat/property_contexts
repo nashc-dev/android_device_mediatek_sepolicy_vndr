@@ -451,3 +451,6 @@ vendor.sms.md.ready	    u:object_r:ril_md_prop:s0
 
 # C2 prop
 vendor.mtk.c2   u:object_r:vendor_mtk_c2_log_prop:s0
+
+# SOC prop
+ro.vendor.soc u:object_r:vendor_mtk_soc_prop:s0
