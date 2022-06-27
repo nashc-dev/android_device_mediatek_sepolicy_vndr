@@ -414,3 +414,7 @@ allow aee_aedv proc_ppm:dir search;
 # Silent harmless spolicy
 dontaudit aee_aedv self:capability dac_override;
 dontaudit aee_aedv self:capability dac_read_search;
+
+# Allow aee_aedv to get required properties
+get_prop(aee_aedv, mtk_md_prop)
+get_prop(aee_aedv, ro_mtk_aee_prop)
