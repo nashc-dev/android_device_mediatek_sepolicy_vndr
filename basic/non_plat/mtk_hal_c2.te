@@ -61,3 +61,6 @@ get_prop(mtk_hal_c2, vendor_mtk_c2_log_prop)
 
 #============= mtk_hal_c2 for power hal ==============
 hal_client_domain(mtk_hal_c2, hal_power)
+
+# Allow C2 hal to get render_prop
+get_prop(mtk_hal_c2, render_prop)
