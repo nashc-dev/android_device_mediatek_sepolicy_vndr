@@ -446,6 +446,7 @@ vendor.debug.awb_mgr. u:object_r:mtk_emcamera_prop:s0
 vendor.debug.hdr u:object_r:mtk_emcamera_prop:s0
 vendor.debug.shot. u:object_r:mtk_emcamera_prop:s0
 vendor.debug.eis. u:object_r:mtk_emcamera_prop:s0
+vendor.debug.tpi. u:object_r:mtk_emcamera_prop:s0
 persist.vendor.mtkcam. u:object_r:mtk_emcamera_prop:s0
 
 #============allow jpeg dec opt. property=========
