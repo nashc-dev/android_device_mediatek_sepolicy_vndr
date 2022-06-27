@@ -6,3 +6,4 @@ allow hal_memtrack debugfs_gpu_img:file {open read getattr };
 allow hal_memtrack debugfs_ion:dir rw_dir_perms;
 allow hal_memtrack debugfs_ion:file {open read getattr };
 allow hal_memtrack proc_ion_clients_summary:file r_file_perms;
+allow hal_memtrack proc_memory_usage:file r_file_perms;
