@@ -60,6 +60,9 @@ allow nvram_daemon sysfs:file read;
 # Purpose: Allow nvram_daemon to get tel_switch_prop
 get_prop(nvram_daemon, tel_switch_prop)
 
+# Allow nvram_daemon to get wmt_prop
+get_prop(nvram_daemon, wmt_prop)
+
 # Purpose: Allow nvram_daemon to search /mnt/vendor/nvdata for fstab
 allow nvram_daemon mnt_vendor_file:dir search;
 allow nvram_daemon self:capability { fowner chown fsetid };
