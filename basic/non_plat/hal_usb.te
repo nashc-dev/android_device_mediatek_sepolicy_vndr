@@ -22,3 +22,4 @@ allow mtk_hal_usb hidl_base_hwservice:hwservice_manager add;
 allow mtk_hal_usb hal_usb_gadget_hwservice:hwservice_manager find;
 
 set_prop(mtk_hal_usb, vendor_usb_prop)
+get_prop(mtk_hal_usb, usb_control_prop)
