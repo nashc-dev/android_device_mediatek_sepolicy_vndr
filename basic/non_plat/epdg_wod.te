@@ -29,3 +29,5 @@ allow epdg_wod proc_net:file rw_file_perms;
 
 # silent self capability dac_override
 dontaudit epdg_wod self:capability dac_override;
+
+get_prop(epdg_wod, mtk_md_version_prop)
