@@ -1,0 +1,3 @@
+# Rules for all domains
+get_prop(domain, debug_mtk_gpud_prop)
+get_prop(domain, vendor_gpu_prop)

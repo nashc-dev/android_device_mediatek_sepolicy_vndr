@@ -11,3 +11,6 @@ system_public_prop(init_svc_aee_aedv_prop)
 
 # DNS property
 system_public_prop(net_dn_prop)
+
+# GPU props
+vendor_restricted_prop(vendor_gpu_prop)

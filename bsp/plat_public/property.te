@@ -6,3 +6,6 @@ system_public_prop(mtk_pkm_init_prop)
 
 #=============MDM init control property=============
 vendor_restricted_prop(init_svc_md_monitor_prop)
+
+# gpud property
+system_public_prop(debug_mtk_gpud_prop)
