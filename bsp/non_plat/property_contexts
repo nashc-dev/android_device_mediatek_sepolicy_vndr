@@ -148,6 +148,7 @@ persist.vendor.log.tel_log_ctrl u:object_r:mtk_log_tel_dbg_prop:s0
 
 #=============allow IMS property===========
 ro.vendor.md_auto_setup_ims u:object_r:mtk_ims_prop:s0
+persist.vendor.ims.simulate u:object_r:mtk_ims_prop:s0
 ro.vendor.md_mims_support u:object_r:mtk_ims_prop:s0
 persist.vendor.ims_support u:object_r:mtk_ims_prop:s0
 ro.vendor.mtk_imsi_switch_support u:object_r:mtk_ims_prop:s0
