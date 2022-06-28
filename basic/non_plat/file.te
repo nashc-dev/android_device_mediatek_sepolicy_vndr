@@ -445,3 +445,6 @@ type sysfs_fpsgo, fs_type, sysfs_type;
 
 # sysfs xgf
 type sysfs_xgf, fs_type, sysfs_type;
+
+# MCDI
+type proc_mcdi, fs_type, proc_type;

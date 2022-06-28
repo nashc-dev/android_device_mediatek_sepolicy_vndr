@@ -34,6 +34,7 @@ define(`PERFMGR_FPSGO_VSYNC', `0x6705')
 define(`PERFMGR_FPSGO_TOUCH', `0x670a')
 define(`PERFMGR_FPSGO_QUEUE_CONNECT', `0x670f')
 define(`PERFMGR_FPSGO_BQID', `0x6710')
+define(`PERFMGR_FPSGO_GET_FPS', `0x6711')
 
 # perf_ioctl.h : EARA
 define(`PERFMGR_EARA_NN_BEGIN', `0x6701')
