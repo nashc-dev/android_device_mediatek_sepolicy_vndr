@@ -10,6 +10,7 @@ allow ccci_rpcd ccci_device:chr_file rw_file_perms;
 allow ccci_rpcd block_device:dir search;
 allow ccci_rpcd misc2_block_device:blk_file rw_file_perms;
 allow ccci_rpcd bootdevice_block_device:blk_file rw_file_perms;
+allow ccci_rpcd md_block_device:blk_file { read open };
 
 #============= ccci_rpcd sysfs related ==============
 allow ccci_rpcd sysfs_ccci:dir search;
