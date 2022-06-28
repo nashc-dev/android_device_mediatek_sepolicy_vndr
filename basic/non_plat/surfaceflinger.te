@@ -63,5 +63,6 @@ get_prop(surfaceflinger, graphics_hwc_hdr_prop)
 allow surfaceflinger sysfs_boot_mode:file r_file_perms;
 get_prop(surfaceflinger, render_prop)
 
-# Allow surfaceflinger to get mtk_pq_ro_prop
+# Allow surfaceflinger to get mtk pq prop
 get_prop(surfaceflinger, mtk_pq_ro_prop)
+get_prop(surfaceflinger, mtk_pq_prop)
