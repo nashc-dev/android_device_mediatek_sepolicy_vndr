@@ -57,6 +57,7 @@ set_prop(vendor_init, mtk_antutu_prop)
 set_prop(vendor_init, mtk_bt_sap_enable_prop)
 set_prop(vendor_init, coredump_prop)
 get_prop(vendor_init, vendor_video_prop)
+set_prop(vendor_init, mtk_pq_prop)
 
 # allow create symbolic link, /mnt/sdcard, for meta/factory mode
 allow vendor_init tmpfs:lnk_file create;
