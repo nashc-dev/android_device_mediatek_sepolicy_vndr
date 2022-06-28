@@ -169,3 +169,6 @@ allow mtk_hal_power hal_fingerprint_default:dir { getattr search };
 allow mtk_hal_power hal_fingerprint_default:file { open read };
 allow mtk_hal_power proc:file { open write };
 allow mtk_hal_power sysfs:file write;
+
+# Allow mtkpower to control DMA latency
+allow mtk_hal_power cpu_dma_latency_device:chr_file rw_file_perms;
