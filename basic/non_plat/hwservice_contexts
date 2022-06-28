@@ -79,3 +79,6 @@ vendor.nxp.nxpnfc::INxpNfc                                                    u:
 
 # VPU
 vendor.mediatek.hardware.vpu::Ivpu                                            u:object_r:hal_neuralnetworks_hwservice:s0
+
+# HWC Extension
+vendor.mediatek.hardware.composer_ext::IComposerExt                           u:object_r:hal_graphics_composer_hwservice:s0
