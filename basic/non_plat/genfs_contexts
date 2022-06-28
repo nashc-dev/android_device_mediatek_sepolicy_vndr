@@ -102,6 +102,8 @@ genfscon sysfs /devices/virtual/switch/fps u:object_r:sysfs_fps:s0
 
 genfscon sysfs /firmware/devicetree/base/chosen/atag,devinfo u:object_r:sysfs_devinfo:s0
 
+genfscon sysfs /firmware/devicetree/base/chosen/atag,boot u:object_r:sysfs_boot:s0
+
 genfscon sysfs /kernel/ccci u:object_r:sysfs_ccci:s0
 
 # Purpose : mtk EM touchscreen settings
