@@ -57,3 +57,6 @@ get_prop(hal_graphics_composer_default, debug_mtk_gpud_prop)
 
 # Allow hal_graphics_composer_default to get mtk_pq_ro_prop
 get_prop(hal_graphics_composer_default, mtk_pq_ro_prop)
+
+# Allow hal_graphics_composer_default to get mtk_aod_support_prop
+get_prop(hal_graphics_composer_default, mtk_aod_support_prop)
