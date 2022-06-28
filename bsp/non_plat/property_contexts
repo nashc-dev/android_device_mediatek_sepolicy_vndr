@@ -374,6 +374,7 @@ vendor.ril.cdma.inecmmode_by_slot u:object_r:mtk_cdma_ecm_prop:s0
 
 #=============MTK RCS property==============
 persist.vendor.mtk_rcs_support u:object_r:mtk_rcs_support_prop:s0
+persist.vendor.mtk_rcs_single_reg_support u:object_r:mtk_rcs_support_prop:s0
 persist.vendor.service.rcs u:object_r:service_rcs_prop:s0
 persist.vendor.service.tag.rcs u:object_r:service_rcs_prop:s0
 persist.vendor.service.tag.rcs.2 u:object_r:service_rcs_prop:s0
