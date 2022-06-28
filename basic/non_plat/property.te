@@ -379,3 +379,6 @@ vendor_restricted_prop(vendor_mtk_soc_prop)
 
 # Debug HWC props
 vendor_restricted_prop(debug_hwc_prop)
+
+# GPU props
+vendor_restricted_prop(vendor_gpu_prop)
