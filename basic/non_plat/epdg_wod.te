@@ -31,3 +31,4 @@ allow epdg_wod proc_net:file rw_file_perms;
 dontaudit epdg_wod self:capability dac_override;
 
 get_prop(epdg_wod, mtk_md_version_prop)
+get_prop(epdg_wod, mtk_wfc_support_prop)
