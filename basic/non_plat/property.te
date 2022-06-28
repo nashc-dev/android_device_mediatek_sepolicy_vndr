@@ -376,3 +376,6 @@ vendor_restricted_prop(vendor_mtk_c2_log_prop)
 
 # SOC Prop
 vendor_restricted_prop(vendor_mtk_soc_prop)
+
+# Debug HWC props
+vendor_restricted_prop(debug_hwc_prop)

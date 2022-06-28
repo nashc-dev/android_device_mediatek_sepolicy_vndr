@@ -454,3 +454,6 @@ vendor.mtk.c2   u:object_r:vendor_mtk_c2_log_prop:s0
 
 # SOC prop
 ro.vendor.soc u:object_r:vendor_mtk_soc_prop:s0
+
+# Debug HWC Props
+vendor.debug.hwc. u:object_r:debug_hwc_prop:s0
