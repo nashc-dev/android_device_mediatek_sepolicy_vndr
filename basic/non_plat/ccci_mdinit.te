@@ -117,6 +117,9 @@ allow ccci_mdinit proc_version:file r_file_perms;
 # Allow ccci_mdinit to write to ccci_dump
 allow ccci_mdinit proc_ccci_dump:file w_file_perms;
 
+# Allow ccci_mdinit to read boot type
+allow ccci_mdinit sysfs_boot_type:file { read open };
+
 get_prop(ccci_mdinit, service_nvram_init_prop)
 allow ccci_mdinit gsi_metadata_file:dir search;
 
