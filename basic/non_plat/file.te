@@ -151,6 +151,7 @@ type rild-dongle_socket, file_type;
 
 type ccci_cfg_file, file_type, data_file_type;
 type ccci_data_md1_file, file_type, data_file_type;
+type proc_ccci_dump, fs_type, proc_type;
 type c2k_file, file_type, data_file_type;
 
 # For sensor

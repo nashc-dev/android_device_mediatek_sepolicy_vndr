@@ -264,3 +264,6 @@ genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0
 
 # SOC
 genfscon sysfs /devices/soc0 u:object_r:sysfs_soc:s0
+
+# CCCI dump
+genfscon proc /ccci_dump u:object_r:proc_ccci_dump:s0
