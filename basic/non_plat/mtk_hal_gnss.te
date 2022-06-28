@@ -15,4 +15,6 @@ allow mtk_hal_gnss mnld_data_file:dir rw_dir_perms;
 
 allow mtk_hal_gnss mnld:unix_dgram_socket sendto;
 
+allow mtk_hal_gnss self:capability2 { wake_alarm };
+
 get_prop(mtk_hal_gnss, wmt_prop)
