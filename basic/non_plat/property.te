@@ -379,3 +379,6 @@ vendor_restricted_prop(vendor_mtk_soc_prop)
 
 # Debug HWC props
 vendor_restricted_prop(debug_hwc_prop)
+
+# MIPC
+vendor_restricted_prop(mtk_mipc_support_prop)

@@ -465,3 +465,7 @@ vendor.debug.hwc. u:object_r:debug_hwc_prop:s0
 # GPU Props
 vendor.debug.gpu. u:object_r:vendor_gpu_prop:s0
 ro.vendor.mtk.gpu. u:object_r:vendor_gpu_prop:s0
+
+# MIPC
+ro.vendor.mtk_mipc_support u:object_r:mtk_mipc_support_prop:s0
+

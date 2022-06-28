@@ -132,3 +132,4 @@ get_prop(ccci_mdinit, mtk_cxp_vendor_prop)
 
 get_prop(ccci_mdinit, mtk_rat_config_prop)
 get_prop(ccci_mdinit, wmt_prop)
+get_prop(ccci_mdinit, mtk_mipc_support_prop)
