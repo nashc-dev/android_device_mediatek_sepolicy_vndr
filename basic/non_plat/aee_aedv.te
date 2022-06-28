@@ -418,3 +418,4 @@ dontaudit aee_aedv self:capability dac_read_search;
 # Allow aee_aedv to get required properties
 get_prop(aee_aedv, mtk_md_prop)
 get_prop(aee_aedv, ro_mtk_aee_prop)
+get_prop(aee_aedv, mtk_default_prop)
