@@ -187,6 +187,9 @@ allow mtk_hal_audio audio_socket:sock_file rw_file_perms;
 allow mtk_hal_audio self:process execmem;
 allow mtk_hal_audio dms_hwservice:hwservice_manager find;
 allow mtk_hal_audio mtk_hal_bluetooth_hwservice:hwservice_manager find;
+allow mtk_hal_audio mtk_hal_bluetooth_audio_hwservice:hwservice_manager find;
+
+add_hwservice(mtk_hal_audio, mtk_hal_bluetooth_audio_hwservice)
 
 get_prop(mtk_hal_audio, vendor_audio_prop)
 set_prop(mtk_hal_audio, vendor_audio_prop)
