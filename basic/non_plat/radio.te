@@ -61,6 +61,9 @@ get_prop(radio, mtk_telephony_sensitive_prop)
 # Allow IMS to get mtk_mobile_management_prop
 get_prop(radio, mtk_mobile_management_prop)
 
+# Allow IMS to get mtk_rcs_support_prop
+get_prop(radio, mtk_rcs_support_prop)
+
 # Purpose : HIDL for imsa
 binder_call(radio, mtk_hal_imsa)
 
