@@ -67,6 +67,9 @@ get_prop(radio, mtk_rcs_support_prop)
 # Allow IMS to get mtk_default_prop
 get_prop(radio, mtk_default_prop)
 
+# Allow IMS to get mtk_dynims_prop
+get_prop(radio, mtk_dynims_prop)
+
 # Purpose : HIDL for imsa
 binder_call(radio, mtk_hal_imsa)
 
