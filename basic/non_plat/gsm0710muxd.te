@@ -15,6 +15,7 @@ set_prop(gsm0710muxd, ctl_stop_prop)
 get_prop(gsm0710muxd, tel_switch_prop)
 get_prop(gsm0710muxd, radio_control_prop)
 get_prop(gsm0710muxd, mtk_rat_config_prop)
+get_prop(gsm0710muxd, mtk_mipc_support_prop)
 
 # allow set muxreport control properties
 set_prop(gsm0710muxd, ril_mux_report_case_prop)
