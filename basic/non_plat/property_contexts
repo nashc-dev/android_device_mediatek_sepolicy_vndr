@@ -400,6 +400,8 @@ debuglog.drv.occ_drv                  u:object_r:vendor_camera_prop:s0
 debuglog.drv.wmfe_drv                 u:object_r:vendor_camera_prop:s0
 debuglog.drv.rsc_drv                  u:object_r:vendor_camera_prop:s0
 jpeg.exif.                            u:object_r:vendor_camera_prop:s0
+ro.mtk_cam_dualzoom_support           u:object_r:vendor_camera_prop:s0
+ro.mtk_cam_stereo_camera_support      u:object_r:vendor_camera_prop:s0
 persist.mtk.venc.                     u:object_r:vendor_video_prop:s0
 persist.tw1.fpc.                      u:object_r:vendor_video_prop:s0
 gce.test                              u:object_r:vendor_video_prop:s0
