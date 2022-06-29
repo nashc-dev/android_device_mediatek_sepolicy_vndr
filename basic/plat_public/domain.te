@@ -1,0 +1,3 @@
+# Rules for all domains
+get_prop(domain, mtk_pq_prop)
+

@@ -14,3 +14,6 @@ system_public_prop(net_dn_prop)
 
 # GPU props
 vendor_restricted_prop(vendor_gpu_prop)
+
+# PQ
+vendor_public_prop(mtk_pq_prop)

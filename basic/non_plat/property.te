@@ -239,7 +239,6 @@ vendor_public_prop(mtk_aal_ro_prop)
 
 #=============mtk pq property=============
 vendor_public_prop(mtk_pq_ro_prop)
-vendor_public_prop(mtk_pq_prop)
 
 #=============mtk emmc property=============
 vendor_public_prop(mtk_emmc_support_prop)
