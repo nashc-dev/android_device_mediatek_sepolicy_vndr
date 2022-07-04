@@ -173,3 +173,5 @@ get_prop(rild, num_md_protocol_prop)
 set_prop(rild, ril_md_prop)
 
 allow rild nvram_agent_binder_hwservice:hwservice_manager find;
+
+allow rild self:capability2 wake_alarm;
