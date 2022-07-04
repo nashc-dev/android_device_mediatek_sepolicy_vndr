@@ -64,7 +64,7 @@ allow mnld tmpfs:lnk_file { read create open };
 allow mnld mtd_device:dir search;
 allow mnld mnt_user_file:lnk_file read;
 allow mnld mnt_user_file:dir search;
-allow mnld gps_data_file:dir { write add_name search remove_name unlink};
+allow mnld gps_data_file:dir { read write add_name search remove_name unlink};
 allow mnld gps_data_file:file { read write open create getattr append setattr unlink lock rename };
 allow mnld gps_data_file:lnk_file read;
 
