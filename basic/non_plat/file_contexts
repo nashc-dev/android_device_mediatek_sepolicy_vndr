@@ -604,6 +604,8 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.[0-9]+-service-mediatekv2 u:object_r:mtk_hal_usb_exec:s0
 # MTK OMAPI for UICC
 /(system\/vendor|vendor)/bin/hw/android\.hardware\.secure_element@1\.[0-9]+-service-mediatek u:object_r:mtk_hal_secure_element_exec:s0
+# MTK Tether offload HAL
+/(system\/vendor|vendor)/bin/hw/tetheroffloadservice u:object_r:hal_tetheroffload_default_exec:s0
 
 # gpu hal
 /(system\/vendor|vendor)/bin/hw/vendor\.mediatek\.hardware\.gpu@1\.0-service u:object_r:mtk_hal_gpu_exec:s0
