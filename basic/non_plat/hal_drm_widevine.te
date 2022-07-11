@@ -13,3 +13,5 @@ hal_client_domain(hal_drm_widevine, hal_graphics_composer);
 allow hal_drm_widevine hal_allocator_server:fd use;
 allow hal_drm_widevine mediadrm_vendor_data_file:dir create_dir_perms;
 allow hal_drm_widevine mediadrm_vendor_data_file:file create_file_perms;
+get_prop(hal_drm_widevine, ro_vendor_mtk_trustonic_tee_prop)
+get_prop(hal_drm_widevine, ro_vendor_mtk_microtrust_tee_prop)
