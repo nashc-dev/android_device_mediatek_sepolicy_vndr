@@ -41,3 +41,4 @@ allow fuelgauged_nvram sysfs_boot_mode:file { open read };
 allow fuelgauged_nvram metadata_file:dir search;
 
 get_prop(fuelgauged_nvram, service_nvram_init_prop)
+get_prop(fuelgauged_nvram, wmt_prop)
