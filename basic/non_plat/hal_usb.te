@@ -23,6 +23,8 @@ allow mtk_hal_usb hal_usb_gadget_hwservice:hwservice_manager find;
 
 r_dir_file(mtk_hal_usb, sysfs_musb_hdrc)
 allow mtk_hal_usb sysfs_musb_hdrc:file w_file_perms;
+r_dir_file(mtk_hal_usb, sysfs_usb_cmode)
+allow mtk_hal_usb sysfs_usb_cmode:file w_file_perms;
 
 set_prop(mtk_hal_usb, vendor_usb_prop)
 get_prop(mtk_hal_usb, usb_control_prop)
