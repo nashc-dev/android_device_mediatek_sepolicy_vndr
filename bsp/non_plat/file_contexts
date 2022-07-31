@@ -141,8 +141,8 @@
 /(vendor|system\/vendor)/bin/hw/vendor\.microtrust\.hardware\.thh@2\.0-service   u:object_r:hal_thh_default_exec:s0
 /(vendor|system\/vendor)/bin/hw/vendor\.microtrust\.hardware\.tui@2\.0-service   u:object_r:hal_tui_default_exec:s0
 /(vendor|system\/vendor)/bin/hw/vendor\.microtrust\.hardware\.capi@2\.0-service  u:object_r:hal_capi_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.0-service\.beanpod  u:object_r:hal_keymaster_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.0-service\.beanpod\.lite  u:object_r:hal_keymaster_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.[0-1]+-service\.beanpod  u:object_r:hal_keymaster_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.[0-1]+-service\.beanpod\.lite  u:object_r:hal_keymaster_default_exec:s0
 
 # MTK nwk opt hal
 /(system\/vendor|vendor)/bin/hw/vendor\.mediatek\.hardware\.nwk_opt@1\.0-service u:object_r:mtk_hal_nwk_opt_exec:s0
