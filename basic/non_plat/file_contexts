@@ -663,6 +663,11 @@
 /vendor/lib(64)?/libpq_prot\.so                                      u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libhdrvideo\.so                                      u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libscltm\.so                                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt[0-9]+[a-z]*/libmtk_drvb\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt[0-9]+[a-z]*/libnir_neon_driver\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt[0-9]+[a-z]*/libneuron_runtime\.so              u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt[0-9]+[a-z]*/libneuron_runtime\.5\.so              u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt[0-9]+[a-z]*/libmcv_runtime.mtk\.so              u:object_r:same_process_hal_file:s0
 
 /vendor/lib(64)?/vendor\.mediatek\.hardware\.gpu@1\.0.so u:object_r:same_process_hal_file:s0
 
